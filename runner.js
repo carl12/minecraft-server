@@ -1,7 +1,7 @@
 const { spawn, exec } = require('child_process');
 const interval = 30000;
 const startup = 10000;
-const minutes = 0;
+const minutes = 10;
 const emptyShutdown = 1000 * 60 * minutes;
 let zeroStreak = 0;
 
