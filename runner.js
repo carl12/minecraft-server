@@ -25,7 +25,7 @@ setTimeout(() => setInterval(() => {
 
 let retries = 3;
 function shutDown() {
-  exec('shutdown now', (error, stdout, stderr) => { 
+  exec('sudo shutdown now', (error, stdout, stderr) => { 
     console.log(error, stdout, stderr);
   });
 }
